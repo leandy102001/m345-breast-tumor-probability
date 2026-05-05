@@ -142,7 +142,7 @@ handles = [
     plt.Line2D([0],[0], color="gray", lw=1.8, linestyle="--", label="Fitted Normal PDF"),
 ]
 fig.legend(handles=handles, loc="upper right", fontsize=10,
-           ncol=3, bbox_to_anchor=(1.0, 1.03))
+           ncol=3, bbox_to_anchor=(1.0, 0.98))
 plt.tight_layout()
 plt.savefig("outputs/fig1_all_features.png", dpi=150, bbox_inches="tight")
 plt.show()
@@ -229,7 +229,7 @@ handles2 = [
     plt.Line2D([0],[0], color="gray", lw=1.5, linestyle="--", label="0.5 threshold"),
 ]
 fig.legend(handles=handles2, loc="upper right", fontsize=9,
-           ncol=5, bbox_to_anchor=(1.01, 1.04))
+           ncol=5, bbox_to_anchor=(1.01, .98))
 plt.savefig("outputs/fig2_top5_deepdive.png", dpi=150, bbox_inches="tight")
 plt.show()
 plt.close()
